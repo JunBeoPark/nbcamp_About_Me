@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Helloworld</string>
+    <string name="signIn_id">아이디</string>
+    <string name="sign_id_et">아이디를 입력하세요.</string>
+    <string name="signIn_pw">비밀번호</string>
+    <string name="signIn_pw_et">비밀번호를 입력하세요.</string>
+    <string name="signIn_Login">로그인</string>
+    <string name="signIn_signup">회원가입</string>
+    <string name="toast_msg_noinput">입력되지않은 정보가 있습니다.</string>
+    <string name="toast_msg_idpqErr">아이디/비밀번호를 확인해주세요</string>
+    <string name="signup_name">이름을 입력하세요.</string>
+    <string name="btn_size">20dp</string>
+
+</resources>

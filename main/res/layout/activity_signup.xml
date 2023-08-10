@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_constraintEnd_toEndOf="parent"
+        android:layout_constraintHorizontal_bias="0.292"
+        android:layout_constraintStart_toStartOf="parent"
+        android:layout_constraintTop_toTopOf="parent"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:text="이름"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="164dp" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_constraintEnd_toEndOf="parent"
+        android:layout_constraintHorizontal_bias="0.392"
+        android:layout_constraintStart_toStartOf="parent"
+        android:layout_constraintTop_toBottomOf="@+id/tv_name"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="@string/signup_name"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="214dp" />
+
+    <TextView
+        android:id="@+id/tv_newid"
+        android:layout_constraintEnd_toEndOf="parent"
+        android:layout_constraintHorizontal_bias="0.392"
+        android:layout_constraintStart_toStartOf="parent"
+        android:layout_constraintTop_toBottomOf="@+id/et_name"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:text="@string/signIn_id"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <EditText
+        android:id="@+id/et_newid"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_constraintHorizontal_bias="0.392"
+        android:layout_constraintTop_toBottomOf="@+id/tv_newid"
+        android:layout_constraintEnd_toEndOf="parent"
+        android:layout_constraintStart_toStartOf="parent"
+        android:ems="10"
+        android:hint="@string/sign_id_et"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="351dp" />
+
+    <TextView
+        android:id="@+id/tv_newpw"
+        android:layout_constraintEnd_toEndOf="parent"
+        android:layout_constraintHorizontal_bias="0.392"
+        android:layout_constraintStart_toStartOf="parent"
+        android:layout_constraintTop_toBottomOf="@+id/et_newid"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:text="@string/signIn_pw"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="420dp" />
+
+    <EditText
+        android:id="@+id/et_newpw"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_constraintHorizontal_bias="0.392"
+        android:layout_constraintTop_toBottomOf="@+id/tv_newpw"
+        android:layout_constraintEnd_toEndOf="parent"
+        android:layout_constraintStart_toStartOf="parent"
+        android:ems="10"
+        android:hint="@string/signIn_pw_et"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="470dp" />
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_constraintBottom_toBottomOf="parent"
+        android:layout_constraintEnd_toEndOf="parent"
+        android:layout_constraintHorizontal_bias="0.497"
+        android:layout_constraintStart_toStartOf="parent"
+        android:layout_constraintTop_toTopOf="parent"
+        android:layout_constraintVertical_bias="0.939"
+        android:layout_width="240dp"
+        android:layout_height="55dp"
+        android:onClick="onButton1Clicked"
+        android:text="@string/signIn_signup"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#0F143C"
+        android:textColorHint="#070B20"
+        android:textColorLink="#0F163E"
+        android:textSize="@string/btn_size"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="598dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
